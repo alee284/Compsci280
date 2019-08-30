@@ -39,3 +39,7 @@ def convert_base(num, n):
         current = current//n
     return new_num_string
 
+def factorial(num):
+    for i in range(num, 0):
+        num = num*i
+        return num
