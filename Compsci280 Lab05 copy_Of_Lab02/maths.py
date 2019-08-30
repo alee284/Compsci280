@@ -40,6 +40,6 @@ def convert_base(num, n):
     return new_num_string
 
 def factorial(num):
-    for i in range(num, 0):
+    for i in range(num, 1):
         num = num*i
         return num
